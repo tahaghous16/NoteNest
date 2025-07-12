@@ -1,13 +1,40 @@
-# React + Vite
+# 📝 NoteNest
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+NoteNest is a beautiful, minimal, and fully responsive note-paste manager built with **React** and **Redux Toolkit**. You can create, update, delete, search, view, and copy notes easily — all stored locally in your browser.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [Live Demo](https://note-nest-sand.vercel.app/)
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# NoteNest
+## 📌 Features
+
+- ✅ Create, update, and delete pastes
+- 🔍 Real-time search filter
+- 👁️ View paste in a separate route
+- 📋 One-click copy to clipboard
+- ⚡ Toast notifications
+- 💾 LocalStorage-based data persistence
+- 💅 Modern responsive UI (TailwindCSS)
+
+---
+
+## 🧰 Tech Stack
+
+| Tech                  | Description                        |
+|-----------------------|------------------------------------|
+| **React**             | UI library                         |
+| **Redux Toolkit**     | State management                   |
+| **React Router DOM**  | Page routing/navigation            |
+| **Lucide React**      | Icons                              |
+| **React Hot Toast**   | Elegant toast messages             |
+| **Tailwind CSS**      | Styling framework                  |
+| **LocalStorage API**  | Persistent client-side storage     |
+
+---
+
+## 🎯 Conclusion
+NoteNest isn't just a paste manager — it's a step forward in mastering React and Redux.
+Through this project, I learned how to manage global state using Redux Toolkit, route between pages with React Router, and make the user experience smoother with features like search, copy, and toast notifications.
+It's proof that even with basic tools and clean UI, you can build something practical, fast, and useful.
